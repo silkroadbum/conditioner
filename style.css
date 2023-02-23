@@ -92,6 +92,7 @@ a {
   background: #006bf6;
   border-radius: 7px;
   border: none;
+  cursor: pointer;
 }
 
 .main-page {
