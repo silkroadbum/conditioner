@@ -2,7 +2,7 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/inter.woff2') format('ttf');
+  src: url('fonts/inter.ttf') format('ttf');
   font-display: swap;
 }
 
@@ -10,7 +10,7 @@
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 700;
-  src: url('fonts/helvetica.woff2') format('ttf');
+  src: url('fonts/helvetica1.ttf') format('ttf');
   font-display: swap;
 }
 
@@ -61,7 +61,11 @@ a {
 
 .header__logo-text {
   color: #205c9f;
-  width: 60px;
+  width: 40px;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  padding-top: 7px;
 }
 
 .main-nav {
@@ -79,7 +83,8 @@ a {
 
 .main-nav__link {
   display: block;
-  padding: 10px;
+  padding: 5px;
+  padding-top: 11px;
 }
 
 .main-nav__button {
@@ -96,10 +101,11 @@ a {
 }
 
 .main-page {
-  padding: 3px 37px 20px;
+  padding: 3px 37px 14px;
 }
 
 .card-title {
+  margin: 0;
   font-family: 'Helvetica';
   font-weight: 700;
   font-size: 87px;
@@ -110,7 +116,7 @@ a {
 
 .card-preview {
   background-color: #f2f2f2;
-  padding: 34px 82px 57px 110px;
+  padding: 34px 82px 57px 102px;
   text-align: center;
   margin-bottom: 91px;
 }
@@ -123,7 +129,7 @@ a {
   line-height: 55px;
   color: #8f8f8f;
   max-width: 798px;
-  margin-bottom: 64px;
+  margin-bottom: 59px;
 }
 
 .card-black-text {
@@ -146,12 +152,12 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px 20px 18px;
+  padding: 15px 20px 10px;
 }
 
 .footer-list {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .footer-list__item {
@@ -164,7 +170,9 @@ a {
 
 .footer-list__link {
   display: block;
-  padding: 10px;
+  padding: 5px;
+  font-size: 14px;
+  line-height: 17px;
 }
 
 .social-list {
